@@ -1,0 +1,13 @@
+name: shamsher 
+on:
+  push :
+      branches: [main]
+jobs:
+  demo:
+    runs-on: ubuntun-latest
+    
+    steps:
+        - name: greeting
+          run: echo "hello there"
+        
+    
