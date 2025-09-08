@@ -1,0 +1,12 @@
+name: wk
+
+on:
+  push:
+    branches:  [main]
+
+jobs:
+  rn:
+    runs-on: ubuntun-latest
+    steps:
+      - name:  gt
+        run: echo "hello there"
