@@ -6,7 +6,7 @@ on:
 
 jobs:
   rn:
-    runs-on: ubuntun-latest
+    runs-on: ubuntu-latest
     steps:
       - name:  gt
         run: echo "hello there"
